@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+article {
+  border: solid;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button {
+  background-color: white;
+  color: black;
+}
+
+article h2 {
+  background-color: beige;
+  text-align: center;
+}
+
+.product {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.free {
+  text-transform: uppercase;
+  color: rgb(167, 149, 149);
+  font-size: 14px;
+}
+
+.price {
+  font-size: 20px;
+}
+a:hover {
+  color: rgb(30, 185, 113);
+}
+
+a {
+  color: black;
+}
