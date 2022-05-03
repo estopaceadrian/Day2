@@ -10,12 +10,15 @@
     <h3>HTML Table Tag Examples</h3>
     <table
       border="1"
-      cellpadding="10"
-      cellspacing="5"
-      bgcolor="pink"
+      cellpadding="15"
+      cellspacing="15"
+      bgcolor="#f3f3f3"
       width="500"
       height="300"
     >
+      <caption>
+        <p><strong> This is a caption</strong></p>
+      </caption>
       <tr bgcolor="lightblue">
         <th>Heading 1</th>
         <th>Heading 2</th>
@@ -24,17 +27,32 @@
         <th>Heading 5</th>
       </tr>
       <tr>
-        <td colspan="2">Row 1, Column 1 & 2</td>
+        <td colspan="2">
+          <!-- <table border="1">
+            <th>Heading 1</th>
+            <th>Heading 2</th>
+            <tr>
+              <td>row 1, col 1</td>
+              <td>row 1, col 2</td>
+            </tr>
+            <tr>
+              <td>row 2, col 1</td>
+              <td>row 2, col 2</td>
+            </tr>
+          </table> -->
+        </td>
         <!-- <td>Row 1, Column 2</td> -->
         <td rowspan="2">Row 1, Column 3</td>
-        <td>Row 1, Column 3</td>
-        <td>Row 1, Column 3</td>
+        <td>Row 1, Column 4</td>
+        <td>
+          <img src="img/HTML.png" alt="html" width="100" height="100" />
+        </td>
       </tr>
       <tr>
         <td>Row 2, Column 1</td>
         <td>Row 2, Column 2</td>
         <!-- <td>Row 2, Column 3</td> -->
-        <td>Row 2, Column 4</td>
+        <td><img src="img/css.png" alt="css" width="100" height="100" /></td>
         <td>Row 2, Column 5</td>
       </tr>
       <tr>
@@ -42,7 +60,9 @@
         <!-- <td bgcolor="yellow">Row 3, Column 2</td>
         <td bgcolor="red">Row 3, Column 3</td> -->
         <td>Row 3, Column 4</td>
-        <td>Row 3, Column 5</td>
+        <td>
+          <img src="img/js.jpg" alt="javascript" height="100" width="100" />
+        </td>
       </tr>
     </table>
   </body>
