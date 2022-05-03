@@ -110,9 +110,9 @@ footer p {
   width: 50%;
   height: auto;
 }
-body {
-  /* background-color: rgb(248, 248, 248); */
-}
+/* body { */
+/* background-color: rgb(248, 248, 248); */
+/* } */
 
 /* .first-li {
   font-weight: bold;
@@ -125,9 +125,9 @@ li:last-child {
   font-style: italic;
 }
 
-li:nth-child(even) {
-  /* color: red; */
-}
+/* li:nth-child(even) { */
+/* color: red; */
+/* } */
 /* Misconseption: this won't work */
 article p:first-child {
   color: red;

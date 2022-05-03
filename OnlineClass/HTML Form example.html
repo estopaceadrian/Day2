@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HTML Forms Example</title>
+  </head>
+  <body>
+    <h1>HTML Forms Example</h1>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <p>
+        <label>First Name: </label
+        ><input type="text" placeholder="First Name" />
+      </p>
+      <p>
+        <label>Last Name: </label><input type="text" placeholder="Last Name" />
+      </p>
+      <p>
+        <label>Describe yourself:</label
+        ><p><textarea
+          rows="6"
+          cols="32"
+          placeholder="Tell us more about yourself"
+        ></textarea></p>
+      </p>
+      <p><label>Frontend Technologies:</label>
+        <input type="checkbox" checked>HTML 
+        <input type="checkbox">CSS 
+        <input type="checkbox">JavaScript
+      </p>
+      <p>
+        <label>Gender: </label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+      </p>
+      <p>
+        <label>Technologies:</label>
+        <select name="technologies" >
+          <option >Select Option</option>
+          <option value="PHP">PHP</option>
+          <option value="PHYTON">PHYTON</option>
+          <option value="JAVA">JAVA</option>
+          <option value="RUBY">RUBY ON RAILS</option>
+        </select>
+      </p>
+      <p>
+        <label>
+          Full Stack Technologies
+        </label>
+        <select name="fullstack"> 
+          <optgroup label="Frontend Technologies">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+          </optgroup>
+          <optgroup label="Backend Technologies">
+            <option value="PHP">PHP</option>
+            <option value="PHYTON">PHYTON</option>
+            <option value="JAVA">JAVA</option>
+            <option value="RUBY">RUBY ON RAILS</option>
+          </optgroup>
+      </select>
+      </p>
+      <p>
+        <label>Select Photo:</label>
+        <input type="file" name="photo" accept="image/">
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Login Information</legend>
+      <p><label>Username: </label><input type="text"></p>
+      <p><label>Password: </label><input type="text"></p>
+      <button>Submit</button>
+    </fieldset>
+  </body>
+</html>
